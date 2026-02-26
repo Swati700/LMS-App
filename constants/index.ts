@@ -5,6 +5,9 @@ export const subjects = [
   "history",
   "coding",
   "economics",
+  "business",
+  "geography",
+  "finance",
 ];
 
 export const subjectsColors = {
@@ -14,6 +17,9 @@ export const subjectsColors = {
   coding: "#FFC8E4",
   history: "#FFECC8",
   economics: "#C8FFDF",
+  business: "#FDFEBD",
+  geography: "#FFCDCD",
+  finance: "#CAFFFC",
 };
 
 export const voices = {
@@ -67,7 +73,31 @@ export const recentSessions = [
     subject: "economics",
     name: "The Market Maestro",
     topic: "The Basics of Supply & Demand",
-    duration: 10,
+    duration: 25,
     color: "#C8FFDF",
   },
+  {
+    id: "7",
+    subject: "business",
+    name: "The Growth Expert",
+    topic: "Scaling your Business Successfully",
+    duration: 20,
+    color: "#FDFEBD",
+  },
+  {
+    id: "8",
+    subject: "geography",
+    name: "GeoMax, the Map Master",
+    topic: "The Oceans of the World",
+    duration: 10,
+    color: "#FFCDCD",
+  },
+  {
+    id: "9",
+    subject: "finance",
+    name: "The Investment Builder",
+    topic: "Understand.ng Mutual Funds",
+    duration: 15,
+    color: "#CAFFFC"
+  }
 ];

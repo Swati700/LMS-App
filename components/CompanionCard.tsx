@@ -41,3 +41,5 @@ const CompanionCard = ({ id, name, topic, subject, duration, color } :
 	)
 }
 export default CompanionCard
+
+

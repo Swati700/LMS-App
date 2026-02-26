@@ -18,6 +18,7 @@ interface CompanionsListProps {
 }
 
 const CompanionsList = ({ title, companions, classNames }: CompanionsListProps) => {
+	console.log("After Change Rendered IDs:", companions?.map(c => c.id));
 	return (
 		<article className={cn('companion-list', classNames)}>
 			<h2 className="font-bold text-3xl">{title}</h2>
